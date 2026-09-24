@@ -488,7 +488,34 @@ footer{
 </section>
 
 
-<section id="contact">
+<section <section id="contact">
+  <div class="wrap">
+    <div class="contact">
+      <h2 class="title">ارتباط با من</h2>
+      <p class="muted">
+        برای ارتباط، همکاری و ارسال پیام می‌توانید فرم زیر را تکمیل کنید.
+      </p>
+
+      <form class="contact-form" action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+
+        <input type="hidden" name="_subject" value="پیام جدید از سایت روح‌الله حقی">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+
+        <label for="name">نام</label>
+        <input type="text" id="name" name="name" placeholder="نام شما" required>
+
+        <label for="email">ایمیل</label>
+        <input type="email" id="email" name="email" placeholder="ایمیل شما" required>
+
+        <label for="message">پیام</label>
+        <textarea id="message" name="message" rows="6" placeholder="پیام خود را بنویسید..." required></textarea>
+
+        <button type="submit">ارسال پیام</button>
+      </form>
+    </div>
+  </div>
+</section>>
   <div class="wrap">
 
     <div class="contact">
